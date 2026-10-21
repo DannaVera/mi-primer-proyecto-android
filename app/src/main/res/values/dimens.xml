@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Valores por defecto: teléfonos en vertical -->
+    <dimen name="margen">24dp</dimen>
+    <dimen name="titulo_tamano">32sp</dimen>
+    <dimen name="boton_tamano">16sp</dimen>
+    <dimen name="boton_ancho">160dp</dimen>
+    <dimen name="boton_alto">48dp</dimen>
+</resources>
