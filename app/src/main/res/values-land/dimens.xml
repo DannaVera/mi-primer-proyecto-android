@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Teléfonos en horizontal: menos alto disponible -->
+    <dimen name="margen">12dp</dimen>
+    <dimen name="titulo_tamano">24sp</dimen>
+    <dimen name="boton_tamano">14sp</dimen>
+    <dimen name="boton_ancho">140dp</dimen>
+    <dimen name="boton_alto">40dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tablets (ancho mínimo 600dp) -->
+    <dimen name="margen">48dp</dimen>
+    <dimen name="titulo_tamano">56sp</dimen>
+    <dimen name="boton_tamano">22sp</dimen>
+    <dimen name="boton_ancho">280dp</dimen>
+    <dimen name="boton_alto">64dp</dimen>
+</resources>

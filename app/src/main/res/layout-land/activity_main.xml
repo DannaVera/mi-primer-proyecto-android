@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño en horizontal: menos alto disponible, se reduce el espaciado -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/margen">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenida"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/titulo_tamano"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="@dimen/boton_ancho"
+        android:layout_height="@dimen/boton_alto"
+        android:background="@drawable/boton_borde"
+        android:text="@string/boton_entrar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/boton_tamano" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+</LinearLayout>
